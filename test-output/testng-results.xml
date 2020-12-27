@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-27T01:52:23Z" name="Default suite" finished-at="2020-12-27T01:53:03Z" duration-ms="39561">
+    <groups>
+    </groups>
+    <test started-at="2020-12-27T01:52:23Z" name="Default test" finished-at="2020-12-27T01:53:03Z" duration-ms="39561">
+      <class name="com.rockcor.DataProviderTestNG">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.rockcor.DataProviderTestNG@58695725]" started-at="2020-12-26T20:52:23Z" name="beforeClass" finished-at="2020-12-26T20:52:38Z" duration-ms="14375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.rockcor.DataProviderTestNG@58695725]" started-at="2020-12-26T20:52:38Z" name="login" data-provider="authenticationData" finished-at="2020-12-26T20:52:46Z" duration-ms="8889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qs12345@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qs123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.rockcor.DataProviderTestNG@58695725]" started-at="2020-12-26T20:52:46Z" name="login" data-provider="authenticationData" finished-at="2020-12-26T20:53:03Z" duration-ms="16243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testng_qs@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qs123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.rockcor.DataProviderTestNG@58695725]" started-at="2020-12-26T20:53:03Z" name="afterClass" finished-at="2020-12-26T20:53:03Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.rockcor.DataProviderTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
